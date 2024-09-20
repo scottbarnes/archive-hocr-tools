@@ -41,4 +41,4 @@ setup(name='archive-hocr-tools',
           'pdf': ['PyMuPDF==1.22.5', 'numpy==1.21.3'],
           'pagenumber': ['viterbi-trellis==0.0.3', 'roman>=3.3', 'numpy>=1.21.3', 'scikit-learn>=1.2.2'],
       },
-      package_data={'hocr': ['data/*', 'daisy/*']})
+      package_data={'hocr': ['data/*', 'daisy/*', 'daisy/daisy_files/*']})
